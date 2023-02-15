@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+    margin-left: 4%;
+    margin-right: 60%;
+    border-radius: 4px;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-left: 10%;
+    margin-right: 68%;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: #000000;
+    max-width: 2560px;
+    min-width: 360px;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #9c9c9c;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.068);
+    max-width: 2600px;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    margin-right: 600px;
+    height: 500px;
+    border-radius: 10px;
+   
+
+}
+
+#title1 {
+    color: #ffffff;
+}
+
+#title2 {
+    color: #ffffff;
+}
+
+#title3 {
+    color: #ffffff;
+}
+
+#title4 {
+    color: #ffffff;
+}
+
+#title5 {
+    color: #ffffff;
+}
+
+#title6 {
+    color: #ffffff;
+}
+
+
+#title7 {
+    color: #ffffff;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+textarea{
+    height: 50px;
+    resize: none;
+}
+
+
+.campo {
+    margin-bottom: 1em;
+
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #9c9c9c;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.grupo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus .grupo input[type="text"] {
+    background: #b1b1b1;
+}
+
+.botao {
+    width: 350px;
+    height: 40px;
+    font-size: 1.2em;
+    background: #363b41;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 87%;
+    left: 49%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background: #6c7381;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.botao, select {
+    cursor: pointer;
+}
+
+#check {
+    display: inline-block;
+}
+ 
+
+@media screen and (max-width:1440px) {
+    body {
+       margin:0 ;
+       margin-left: 510px;
+    }
+
+    #titulo{
+        margin-top: 40px;
+        margin-right: 50px;
+        margin-left: 40px;
+
+    }
+
+    #subtitulo{
+        margin-right: 50px;
+        margin-left: 80px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width:1024px) {
+    body {
+       margin:0 ;
+       margin-left: 310px;
+    }
+
+    #titulo{
+        margin-top: 40px;
+        margin-right: 50px;
+        margin-left: 20px;
+
+    }
+
+    #subtitulo{
+        margin-right: 50px;
+        margin-left: 80px;
+
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    body {
+       margin:0 ;
+       margin-left: 10px;
+    }
+
+    #titulo{
+        margin-top: 40;
+        margin-right: 50px;
+        margin-left: 50px;
+
+    }
+
+    #subtitulo{
+        margin-right: 50px;
+        margin-left: 80px;
+
+    }
+
+}
+
+
+@media screen and (max-width:375px),(max-height:667px) {
+    body {
+       margin:0 ;
+
+    }
+
+    #titulo{
+        margin-top: 40px;
+        margin-right: 5px;
+        margin-left: 50px;
+       
+
+    }
+
+    #subtitulo{
+        margin-right: 50px;
+        margin-left: 80px;
+
+    }
+
+}
